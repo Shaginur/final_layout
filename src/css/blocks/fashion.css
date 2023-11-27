@@ -1,0 +1,288 @@
+.swip-img {
+    padding-left: 2.8rem;
+    padding-right: 2.8rem;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.swiper-img2 {
+    display: flex;
+    justify-content: center;
+}
+
+.swip-img2 {
+    width: 60%;
+}
+
+.list {
+    padding-right: 2.8rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--swiper-color-naxt);
+}
+
+.swiper-spisock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-subtitle {
+    font-size: 4.8rem;
+    font-weight: 800;
+}
+
+.ul-set {
+    color: var(--subtitle-color-fashion);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+.assortment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-cosmetics {
+    text-align: center;
+    font-size: 4.8rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 4.8rem;
+    margin-top: 14rem;
+}
+
+.perfume {
+    width: 30.8rem;
+    height: 33.2rem;
+}
+
+.pomade {
+    width: 30.8rem;
+    height: 28.6rem;
+}
+
+.foam {
+    width: 18.6rem;
+    height: 18.6rem;
+}
+
+.description {
+    margin: 2.2rem 0 2.2rem 3rem;
+    padding: 0 4.8rem;
+    width: 54rem;
+}
+
+.subtitle {
+    color: var(--subtitle-color-fashion);
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.padding {
+    padding: 4rem 0;
+}
+
+.description-text {
+    color: var(--dscr-text-fashion);
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+
+.foto {
+    display: block;
+    position: relative;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors */
+.perfume {
+    position: absolute;
+    left: 19rem;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors */
+.pomade {
+    position: absolute;
+    top: 24.6rem;
+    left: 2rem;
+}
+
+/* stylelint-disable-next-line no-duplicate-selectors */
+.foam {
+    position: absolute;
+    top: 42rem;
+    left: 21rem;
+}
+
+.wrapper-blue {
+    display: block;
+    position: relative;
+}
+
+.wrapper-blue::after {
+    content: " ";
+    position: absolute;
+    width: 7.2rem;
+    height: 7.2rem;
+    background-color: #a0dcff;
+    border-radius: 50%;
+    left: 46rem;
+    top: 20rem;
+}
+
+.wrapper-pink {
+    display: block;
+    position: relative;
+}
+
+.wrapper-pink::before {
+    content: " ";
+    position: absolute;
+    width: 7.2rem;
+    height: 7.2rem;
+    background-color: #ffc3d8;
+    border-radius: 50%;
+    left: -10px;
+    top: 39rem;
+}
+
+.wrapper-green {
+    display: block;
+    position: relative;
+}
+
+.wrapper-green::after {
+    content: " ";
+    position: absolute;
+    width: 5.6rem;
+    height: 5.6rem;
+    background-color: #c1e5c0;
+    border-radius: 50%;
+    top: 58rem;
+    left: 37rem;
+}
+
+.blue {
+    display: block;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.blue::before {
+    content: " ";
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #a0dcff;
+    border-radius: 50%;
+    top: 1.4rem;
+    left: 0;
+}
+
+.pink {
+    display: block;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.pink::before {
+    content: " ";
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #ffc3d8;
+    border-radius: 50%;
+    top: 1.4rem;
+    left: 0;
+}
+
+.green {
+    display: block;
+    position: relative;
+    padding-left: 1rem;
+}
+
+.green::before {
+    content: " ";
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: #c1e5c0;
+    border-radius: 50%;
+    top: 1.4rem;
+    left: 0;
+}
+
+.assortment2 {
+    display: none;
+}
+
+@media screen and (max-width: 1168px) {
+    .perfume {
+        position: absolute;
+        left: 11rem;
+    }
+
+    .wrapper-blue::after {
+        left: 38rem;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .assortment {
+        display: none;
+    }
+
+    .repeat {
+        margin-left: -8rem;
+    }
+
+    .wrapper {
+        margin-top: 2.6rem;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .assortment2 {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    img .product {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    /* stylelint-disable-next-line no-duplicate-selectors */
+    .repeat {
+        margin: 0;
+        padding-left: 8rem;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 975px) {
+    .swiper-subtitle {
+        font-size: 3.8rem;
+    }
+
+    .ul-set {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .swiper-subtitle {
+        font-size: 2.8rem;
+    }
+
+    .ul-set {
+        font-size: 1.4rem;
+    }
+}

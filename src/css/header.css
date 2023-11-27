@@ -1,0 +1,57 @@
+.header {
+    background-color: var(--body-color);
+    padding: 2rem 0;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.06) 0 6px 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-logo {
+    padding: 0;
+}
+
+.header-logo,
+.header-logo:hover {
+    border-bottom: 2px solid transparent; /* в навигации такие же сылки */
+}
+
+.header-logo:focus {
+    border: 2px solid transparent;
+}
+
+.header-logo svg {
+    color: var(--logo-fill);
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+/* навигация */
+.header-nav__link.active {
+    border: var(--link-border-focus);
+    color: var(--link-title-hover);
+}
+
+/* кнопка бургер */
+header .burger-menu {
+    display: none;
+}
+
+/* адаптив */
+@media screen and (max-width: 960px) {
+    .header-nav {
+        display: none;
+    }
+
+    header .burger-menu {
+        display: inline-flex;
+    }
+}
