@@ -1,22 +1,21 @@
 # final_layout
 ## Установить
-Установите npm глобально
-С сайта
-"npm install -g npm"
+Установите npm глобально С сайта
+<div>npm install -g npm</div>
 Установите Node.js
 Рекомендуемая версия - 14.8 LTS
 С сайта
 Из NVM (рекомендуется)
 Установить зависимости
-cd vite-frontend-312
-npm install
+<div>cd vite-frontend-312
+npm install</div>
 Запустить сервер
-npm run dev
+<div>npm run dev</div>
 Запускаем lint для js
-npm run lint
+<div>npm run lint</div>
 Исправить ошибки lint js
-npm run lint:fix
+<div>npm run lint:fix</div>
 Запускаем stylelint для css
-npm run stylelint
+<div>npm run stylelint</div>
 Исправить ошибки CSS
-npm run stylelint:fix
+<div>npm run stylelint:fix</div>
